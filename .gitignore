@@ -1,0 +1,21 @@
+# Local assistant and operational documentation; retain only in the private workspace.
+AGENTS.md
+07-Blueprints/
+
+# Local environments, generated output, and credentials.
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.coverage
+**/.env
+**/.env.*
+**/secrets/
+**/data/output/*
+!**/data/output/.gitkeep
+
+# Editor and OS files.
+**/.DS_Store
+**/*.swp
+**/*.swo
+**/*~
